@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    overflow: hidden;
+}
+
+header {
+    background:#34a8eb;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+aside {
+    background: red;
+    align-self: stretch;
+    width: 200px;
+}
+
+article{display: flex;flex-direction: column;height: 100vh;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+footer {
+
+display: flex;
+
+align-self: flex-end;
+
+position: absolute;
+
+bottom: 0;
+padding: 10px;
+background: blue;
+}
+
+footer p {
+    text-align: right;
+    
+}
