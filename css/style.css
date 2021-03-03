@@ -1,50 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    overflow: hidden;
+.container {
+  overflow: hidden;
 }
 
 header {
-    background:#34a8eb;
+  background: #34a8eb;
+  width: 100%;
+  padding: 10px;
+  height: 50px;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100vh;
 }
 
 aside {
-    background: red;
-    align-self: stretch;
-    width: 200px;
+  background: #dcf5e3;
+  align-self: stretch;
+  width: 200px;
+  padding: 10px;
 }
 
-article{display: flex;flex-direction: column;height: 100vh;}
+article {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
 }
 
 footer {
-
-display: flex;
-
-align-self: flex-end;
-
-position: absolute;
-
-bottom: 0;
-padding: 10px;
-background: blue;
+  background: #34a8eb;
+  padding: 18px;
 }
 
 footer p {
-    text-align: right;
-    
+  text-align: right;
+}
+
+#content {
+  padding: 16px;
+  width: 86%;
+  margin: 5vh auto;
+  box-shadow: -1px 0px 36px -5px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: -1px 0px 36px -5px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: -1px 0px 36px -5px rgba(0, 0, 0, 0.43);
+}
+
+#content h1 {
+  margin: 10px 0 20px 0;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+ion-icon {
+  top: 2px;
+  position: relative;
 }
