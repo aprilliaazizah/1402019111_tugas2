@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Project</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -15,15 +20,28 @@
       <main>
         <aside>
           <ul>
-            <li>My Project</li>
-            <li>About Me</li>
-            <li>Ask Me!</li>
+            <li>
+              <a href="index.html"
+                ><ion-icon name="medal-outline"></ion-icon>My Project</a
+              >
+            </li>
+            <li>
+              <a href="about.html"
+                ><ion-icon name="person-outline"></ion-icon>About Me</a
+              >
+            </li>
+            <li>
+              <a href="ask.html"
+                ><ion-icon name="chatbox-outline"></ion-icon>Ask Me!</a
+              >
+            </li>
           </ul>
         </aside>
 
         <article>
           <div id="content">
             <h1>My Project</h1>
+            <hr />
             <table>
               <tr>
                 <th>No</th>
